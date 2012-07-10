@@ -17,8 +17,9 @@ public class QRCodeJava {
         
         
         String temp = new String();
-        
-        try {
+        temp = "Humpty Dumpty";
+        temp = "BOOTS";
+try {
             FileOutputStream fout = new FileOutputStream(new File(
                     "D:\\QR_Code.PNG"));
  
