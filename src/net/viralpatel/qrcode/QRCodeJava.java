@@ -14,6 +14,10 @@ public class QRCodeJava {
         ByteArrayOutputStream out = QRCode.from("Alpha Beta Gamma")
                                         .to(ImageType.PNG).stream();
  
+        
+        
+        String temp = new String();
+        
         try {
             FileOutputStream fout = new FileOutputStream(new File(
                     "D:\\QR_Code.PNG"));
